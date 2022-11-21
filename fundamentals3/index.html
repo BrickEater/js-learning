@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF0-8">
+        <link rel="shortcut icon" href="">
+        <title>Function Practice</title>
+    </head>
+    <body>
+        <script>
+            function add7 (num) {
+                return num + ' plus 7 is ' + (num + 7)
+            }
+            console.log(add7(5))
+
+            function multiply(multi1,multi2) {
+                return multi1 + ' and ' + multi2 + ' multiplied together equals ' + (multi1*multi2)
+            }
+            console.log(multiply(5,10))
+
+            function capitalize(word){
+                let capword = word.toUpperCase()
+                return capword
+            }
+            console.log(capitalize('cats and dogs WITH CAPS'))
+
+            function lastLetter(word) {
+                let list = Array.from(word)
+                let last = list.slice(-1)
+                return last.toString()
+            }
+            console.log(lastLetter('Daddy'))
+        </script>
+    </body>
+</html>
