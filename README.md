@@ -1,6 +1,8 @@
 # js-learning
 general projects from odin project
 
+25/11/2022 - I have to make a rock paper scissors game and I think it should be fine. I feel like I've made something like this in other languages and the tik tak toe game I did in react should be a big help. I'll make some. I'll probably make an internal readme for the game itself to plan it out and have some pseudocode in there.
+
 24/11/2022 - This error stuff suggests that the error messages should be enough to let the programmer know what the issues is. That understanding the error messages well would lead to a lot of streamlined debugging. It does make me think, though, that there may not be tools that are intuitive enough to identify some simple mistakes. A TypeError seems like a simple thing to correct if you try and pass a function that requires a string but you are passing it an array. Certainly someone has made something that says "expecting a string" when this happens... It's probably not that simple if there isn't something like that.
 
 24/11/2022 - I just realized that error messages are from a system that is built into the language or compiler maybe (??) and it is a necessity to have. I don't know why this never clicked before but it makes sense that it was made to solve a functional issue. I should put more effort into understanding error messages as a whole and how they occur. There would be a limited number of them and all of them would identify very specific things. There is even a chance that error messages aren't specific enough for some issues or that some issues would be missed and not produce an error message.
