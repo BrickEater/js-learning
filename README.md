@@ -1,6 +1,8 @@
 # js-learning
 general projects from odin project
 
+26/11/2022 - I got the RPS game working. I make a few different mistakes but realized early the problem. Honestly, they seem like the kind of mistakes that you could make an have no idea what the fuck is going on. The major thing was I made 2 functions that picked rock, paper, or scissors for the computer and the player and I would call them each time I printed to the consol but since these functions have a rng in them they would change very time I called the function. I changed it so be a variable that has the function assigned to it and called the variable in the console logs so it was only calling the function once.
+
 25/11/2022 - I have to make a rock paper scissors game and I think it should be fine. I feel like I've made something like this in other languages and the tik tak toe game I did in react should be a big help. I'll make some. I'll probably make an internal readme for the game itself to plan it out and have some pseudocode in there.
 
 24/11/2022 - This error stuff suggests that the error messages should be enough to let the programmer know what the issues is. That understanding the error messages well would lead to a lot of streamlined debugging. It does make me think, though, that there may not be tools that are intuitive enough to identify some simple mistakes. A TypeError seems like a simple thing to correct if you try and pass a function that requires a string but you are passing it an array. Certainly someone has made something that says "expecting a string" when this happens... It's probably not that simple if there isn't something like that.
