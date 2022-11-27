@@ -1,12 +1,4 @@
-I guess I'll plan out this rock paper scissors game here as well as document my progress the way I typically do.
-
-The player needs to be able to select one of the options so I guess I can put in three buttons, one for each option and have a listener.
-
-The computer player needs to randomly select an option.
-
-There needs to be an if/else statement for the win condition or tie condition.
-
-Remember that you can make ifs for all wins and elses for the rest, no need to make a statement for every single outcome when you can blanket it with an else.
+27/11/2022 - I'm very close to being done. I have to create restrictions on what the user can input into the prompt bars. I think that is it, once that's done the game is done. Oh, and if they user selects cancel I'd like to insult them.
 
 26/11/2022 - Nope, it's not comparing each of them as strings so it's true. Every time I use them in the console.log I call the function and thus randomize the values. It makes a situation where they are correct 33% of the time... I just need to have them be assigned to a variable and then call the variable.
 
