@@ -1,6 +1,8 @@
 # js-learning
 general projects from odin project
 
+28/11/2022 - I didn't want to make all these restrictions and conditions for the prompt entries for this game so I just made conditions where if the user picks something else I will force a selection. Honestly, since it is in the console it isn't a nice way to play the game because the prompt window would appear overtop of the console when it would appear. I'm done now and happy to be done. This would be nicer to do with react. Obviously...
+
 27/11/2022 - Almost done the RPS game. Pretty straight forward and I'm using a lot of stuff I remember from learning python.I'm excited to finish these things and move on to stuff that will help me to get a job. Whatever that is... :P
 
 26/11/2022 - I got the RPS game working. I make a few different mistakes but realized early the problem. Honestly, they seem like the kind of mistakes that you could make an have no idea what the fuck is going on. The major thing was I made 2 functions that picked rock, paper, or scissors for the computer and the player and I would call them each time I printed to the consol but since these functions have a rng in them they would change very time I called the function. I changed it so be a variable that has the function assigned to it and called the variable in the console logs so it was only calling the function once.

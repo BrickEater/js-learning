@@ -2,6 +2,11 @@ function game() {
 
     let playRound = prompt("How many rounds would you like to play?");
 
+    if (playRound > 4) {
+        console.log("That is too many rounds and would be miserable to do. Here's 5.")
+        let playRound = 5
+    }
+
     let playerScore = 0
     let computerScore = 0
 
@@ -20,14 +25,19 @@ function game() {
         }
 
         function getPlayerChoice() {
-            const pick = Math.floor((Math.random() * 3) + 1)
-            if (pick === 1) {
+            const pick = prompt("Pick Rock, Paper, or Scissors")
+            if (pick == null || pick == "") {
+                alert("It has to be one of the three, idiot");
+                getPlayerChoice()
+              } else if (!/^[a-zA-Z]+$/.test(pick)) {
+                alert("Did you think anything besides letters would work?");
+                getPlayerChoice()
+              } else if (pick != "Rock" || "Paper" || "Scissors") {
+                console.log("That doesn't make sense, here's Rock")
                 return "Rock"
-            } else if (pick === 2) {
-                return "Paper"
-            } else {
-                return "Scissors"
-            }
+              } else {alert("You picked something");
+                return pick
+              }
         }
 
         const compPick = getComputerChoice()
@@ -71,17 +81,3 @@ function game() {
 }
 
 game()
-
-
-function getPlayerChoice() {
-    const pick = prompt("Pick Rock, Paper, or Scissors")
-    if (pick == null || pick == "") {
-        alert("It has to be one of the three, idiot");
-        getPlayerChoice()
-      } else if (!/^[a-zA-Z]+$/.test(pick)) {
-        alert("Did you think anything besides letters would work?");
-        getPlayerChoice()
-      } else {
-        alert("Your enquiry has gone through");
-      }
-}
