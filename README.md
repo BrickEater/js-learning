@@ -1,6 +1,8 @@
 # js-learning
 general projects from odin project
 
+30/11/2022 - I have a fuck tonne of JS exercises that I have to do with this next project. It's kinda neat, though. There is a method for checking if what I put into the code is correct. I add code to the js file and the spec.js file runs a test to see if my output is correct. I'm kinda dreading doing all this work but I'm sure I'll enjoy it. :P
+
 28/11/2022 - I didn't want to make all these restrictions and conditions for the prompt entries for this game so I just made conditions where if the user picks something else I will force a selection. Honestly, since it is in the console it isn't a nice way to play the game because the prompt window would appear overtop of the console when it would appear. I'm done now and happy to be done. This would be nicer to do with react. Obviously...
 
 27/11/2022 - Almost done the RPS game. Pretty straight forward and I'm using a lot of stuff I remember from learning python.I'm excited to finish these things and move on to stuff that will help me to get a job. Whatever that is... :P
